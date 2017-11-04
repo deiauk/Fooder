@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="fooder.deividas.com.fooder.activities.DetailAdditiveActivity"
+    tools:showIn="@layout/activity_detail_additive">
+
+    <LinearLayout
+        android:paddingBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/number"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="22sp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:background="#aacacaca"
+            android:text="E621"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/fullName"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:text="Monatiro gliutomatas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Kategorija: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/category"
+                android:textSize="20sp"
+                android:text="uyufdgfdgsfdfsdfdssdfsdfdsfdsfdfdfsdfdfdsfdsfdsffdsfsdfsdf: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/danger"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:text="Monatiro glasdasd iutomatas sddsfdsf sdfds sdfdf sdfsdf sdfdsf sdfdsf sdfsdf sfsdfds sdfdsfds sdfsdff sdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:text="Monatiro sfsdsfdsfsdfdsfdssdfsdfdsfdsfdsfsdfsdfgliutomatas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>
